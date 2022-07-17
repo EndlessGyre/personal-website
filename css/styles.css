@@ -1,0 +1,39 @@
+body {background-color: ghostwhite;}
+
+hr {
+    align-items: center;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 2px;
+    width: 15px;    
+}
+
+.name {font-size: 64px;}
+
+.margin {margin: 12px;}
+
+
+/* FLEXBOX */
+.flex {display: flex;} /* Defines the container; enables FB for all direct children */
+
+.flex-direction {flex-direction: row} /* main axis for items; also: row-reverse, column, column-reverse */
+
+.flex-between {justify-content: space-between;} /* */
+
+.flex-start {justify-content: flex-start;} /* */
+
+.flex-end {justify-content: flex-end;} /* */
+
+
+
+/*  */
+
+.max-width {max-width: 750px;}
+
+.h3-mx4 {margin-bottom: 4px;}
+
+/* #article1 {
+    background-color: darkkhaki;
+} */
+
+
