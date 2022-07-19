@@ -12,19 +12,34 @@ hr {
 
 .margin {margin: 12px;}
 
+/* SECTION-ING */
+
+/* POSITION-ING */
+
+.position-static {position: static} /* This is the default for all HTML elements. */
+
+.position-relative {position: relative} /* Change the position RELATIVE to element's static position;
+must use top, bottom, left, right to specify this relation */
+
+
 
 /* FLEXBOX */
+
 .flex {display: flex;} /* Defines the container; enables FB for all direct children */
 
 .flex-direction {flex-direction: row} /* main axis for items; also: row-reverse, column, column-reverse */
 
-.flex-between {justify-content: space-between;} /* */
+.flex-wrap {flex-wrap: nowrap;} /* nowrap is the default, wrap and wrap-reverse also possible */
 
-.flex-start {justify-content: flex-start;} /* */
+.flex-flow {flex-flow: row nowrap}/* shorthand combining DIRECTION and WRAP properties of container */
 
-.flex-end {justify-content: flex-end;} /* */
+.flex-start {justify-content: flex-start;} /* items are packed toward the start of the flex direction */
 
+.flex-end {justify-content: flex-end;} /* packed toward the left */
 
+.flex-center {justify-content: center;}  /* items centered along line */
+
+.flex-between {justify-content: space-between;} /* items spaced evenly, with items on start and end lines */
 
 /*  */
 
